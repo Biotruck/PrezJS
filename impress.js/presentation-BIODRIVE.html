@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <link rel="stylesheet" type="text/css" href="css/presentation.css">
+    <title>impress.js presentation</title>
+  </head>
+  <body class="impress-not-supported">
+    <div class="fallback-message">
+      <p>impress.js not supported</p>
+    </div>
+    <div id="impress">
+      <div class="step" class="fillImage"> Slide 1 <!--remplir les class step avec des images --></div>
+      <div class="step" data-x="1000" data-z="2000" data-rotate-z="-90" data-rotate-y="50" data-rotate="-15"> Slide 2 </div><!--les positions dans l'espace se font toujours avec un même et seul point d'origine  -->
+      <div class="step"  data-scale="5"> Slide 3 <img  src="img/panierVide.png" alt="enseigne carrefour" /> </div> <!--la slide 3 est sur le même plan que la slide 1 mais avec une échelle 5 fois plus grande -->
+      <div class="step"  data-z="300" data-rotate-y="-75" data-x="450">
+       slide 4 <br><img  src="img/carrefour.png" alt="enseigne carrefour" /> 
+       </div>
+    </div>
+    <script src="js/impress.js"> </script>
+    <script> impress().init(); </script>
+  </body>
+</html>

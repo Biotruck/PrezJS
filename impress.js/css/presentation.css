@@ -1,0 +1,10 @@
+.impress-supported .fallback-message { 
+display:none; }
+
+.step { 
+width: 400px; 
+height: 500px; 
+padding: 20px; 
+margin: 10px; 
+border: 4px solid black; }
+
